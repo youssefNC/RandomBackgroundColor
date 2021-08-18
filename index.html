@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>challange 01</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="bg">
+        <div class="box">
+            <button class="changeColor-btn" onclick="changeColor()">click me</button>
+            <div>
+                <span id="hexColor">Hex: #ffffff</span>
+                <span id="red">Red: 255</span>
+                <span id="green">Green: 255</span>
+                <span id="blue">blue: 255</span>
+            </div>
+            <form action="">
+                <label for="rgb">rgb color</label>
+                <input id="rgb" type="text" value="rgb(250, 250, 250)">
+                <button type="button" class="copy" onclick="copyRgb()">copy code</button>
+            </form>
+            <form action="">
+                <label for="hex">hex color</label>
+                <input id="hex" type="text" value="#fff">
+                <button type="button" class="copy" onclick="copyHex()">copy code</button>
+            </form>
+            
+            
+        </div>
+    </div>
+    
+
+    <script src="js/costum.js"></script>
+</body>
+</html>
